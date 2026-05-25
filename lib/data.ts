@@ -98,8 +98,9 @@ export const documents = [
   {
     title: "State NOC",
     links: [
-      ["B.Ed", "https://drive.google.com/file/d/14XGBgfGZYsN48NK6pOoBSCUpqR6GqKXi/view?usp=sharing"],
-      ["B.A.-B.Ed/B.Sc.-B.Ed 4 yr Integrated", "https://drive.google.com/file/d/1mjYozW4oZo_6TcuM7GRK7CMrQ11t_x_E/view?usp=sharing"]
+      ["B.Ed State NOC", "https://drive.google.com/file/d/1tROkrAUZsvbAZXmk-GT8b8__gWYkpQwr/view?usp=sharing"],
+      ["Integrated State NOC", "https://drive.google.com/file/d/1QwybiGkDovwavqi2-tXfsSuVqe4mjxzm/view?usp=sharing"],
+      ["Fire NOC", "https://drive.google.com/file/d/18aGnvbQJnMpSnbgImcQeC24D9K__1guW/view?usp=sharing"]
     ]
   },
   {
@@ -119,13 +120,33 @@ export const documents = [
   {
     title: "University Affiliation",
     links: [
-      ["B.Ed", "https://drive.google.com/file/d/1eQfqLWiwf-6jCC8sehJEu4K9QTKGahNy/view?usp=sharing"],
-      ["B.A.-B.Ed/B.Sc.-B.Ed 4 yr Integrated", "https://drive.google.com/file/d/17uvE7-dyZWZoHcmNJyaRskMnQxhtA-pd/view?usp=sharing"]
+      ["B.Ed Affiliation 2024", "https://drive.google.com/file/d/1UornQkSoNW7MEJ0aGZqpcwMZ-YLt5ylU/view?usp=sharing"],
+      ["B.Ed Affiliation 2025", "https://drive.google.com/file/d/1W9FOH5mgAsbOl5WRbctj0W9V3s8wLzNG/view?usp=sharing"],
+      ["Integrated Affiliation 2024", "https://drive.google.com/file/d/1gu6Gbrh6zlUULlPmutJ8r8g4O83lQrdr/view?usp=sharing"],
+      ["Integrated Affiliation 2025", "https://drive.google.com/file/d/1NXXRDMElH1TZM4v-Jbz5ZTBpHHJi1qyM/view?usp=sharing"]
     ]
   },
   {
     title: "Financial Documents",
-    links: [["Audit Report", "https://drive.google.com/file/d/1JrP2MJM5ofewA9bulAw0omFyqx6jsK5Q/view?usp=sharing"]]
+    links: [
+      ["Audit 2023", "https://drive.google.com/file/d/1Jw7HwLvbXIvK1DvCE4k01T62ukW8w-PD/view?usp=sharing"],
+      ["Audit 2024", "https://drive.google.com/file/d/1eWYdk5YL37u9osgNeIGnqGN6Dg7lBpTN/view?usp=sharing"],
+      ["Audit 2025", "https://drive.google.com/file/d/1FaoAN3yNMHaUnmRQQM_2msYLFYnHPHQE/view?usp=sharing"],
+      ["Balance Sheet 2023", "https://drive.google.com/file/d/1M5c4LwZoh4utrzuJyKlxRvP37va3CYxl/view?usp=sharing"],
+      ["Balance Sheet 2024", "https://drive.google.com/file/d/1y-mWTUqB2R2nY3_Cp_m7IVgQfHaIJR8T/view?usp=sharing"],
+      ["Balance Sheet 2025", "https://drive.google.com/file/d/16ittkhJ9nRTLR4rJiITv331fFh37jBLx/view?usp=sharing"]
+    ]
+  },
+  {
+    title: "AISHE",
+    links: [["AISHE Certificate", "https://drive.google.com/file/d/1MO2Fwx5H8U_kkF1TK5BbyRZaxljWj7jh/view?usp=sharing"]]
+  },
+  {
+    title: "Land Documents",
+    links: [
+      ["Land Conversion Letter", "https://drive.google.com/file/d/1KOMhxnXiDu-S4R4VeKbhunzXIsP2XWoF/view?usp=sharing"],
+      ["Land Document", "https://drive.google.com/file/d/19xe5wT7D4C6HrYc0ofaxI0amAzdZpjE9/view?usp=sharing"]
+    ]
   },
   {
     title: "Infrastructure",
