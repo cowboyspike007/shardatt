@@ -1,1 +1,9 @@
+node_modules/
+.next/
+out/
+.vercel/
+
+.DS_Store
+*.log
+
 assets/css/styles.css
