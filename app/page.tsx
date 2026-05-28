@@ -15,19 +15,19 @@ const commitments = [
     title: "Mission",
     icon: Target,
     text:
-      "To prepare responsible teachers who combine subject knowledge, classroom skill, empathy and ethical practice so every learner can feel seen, supported and challenged."
+      "To prepare professionally competent teachers with sound subject knowledge, classroom skills, ethical values and a commitment to inclusive education."
   },
   {
     title: "Vision",
     icon: Lightbulb,
     text:
-      "To grow as a teacher education institution known for thoughtful pedagogy, inclusive learning, academic discipline and graduates who strengthen schools and communities."
+      "To be a respected centre for teacher education that contributes capable educators, thoughtful leaders and responsible citizens to society."
   },
   {
     title: "Message by Management",
     icon: MessageSquareQuote,
     text:
-      "To the new batch, welcome to a profession that shapes lives quietly and deeply. Use your years here to ask better questions, build strong habits, respect every learner and become the kind of teacher students remember with gratitude."
+      "We welcome the new batch to a meaningful academic journey. May your time at Sharda T.T. College strengthen your knowledge, discipline, confidence and dedication to the teaching profession."
   }
 ];
 
@@ -40,7 +40,7 @@ export default function Home() {
           <p className="eyebrow">Teacher education in Chomu, Jaipur</p>
           <h1>Sharda T.T. College</h1>
           <p>
-            Preparing capable, thoughtful teachers through B.Ed, B.A.-B.Ed and B.Sc.-B.Ed programs.
+            A teacher education institution dedicated to academic excellence, professional training and value-based learning.
           </p>
           <Link className="button" href="/courses">
             Explore Courses <ArrowRight size={18} />
@@ -52,10 +52,10 @@ export default function Home() {
         <div className="section-inner split">
           <div className="panel">
             <p className="eyebrow">Welcome</p>
-            <h2>Learning spaces built for future teachers</h2>
+            <h2>Committed to excellence in teacher education</h2>
             <p>{introText}</p>
             <p>
-              The campus is situated at Udaipuria Mode, Lohrwada Road, Chomu, Jaipur. Academic work is supported by classrooms, labs, a library, seminar spaces and outdoor facilities.
+              Located at Udaipuria Mode, Lohrwada Road, Chomu, Jaipur, the college provides classrooms, laboratories, library resources, seminar facilities and a disciplined campus environment for academic growth.
             </p>
           </div>
           <aside className="panel">
@@ -77,7 +77,7 @@ export default function Home() {
           <SectionHeader
             eyebrow="Programs"
             title="Courses Offered"
-            text="Choose from professional and integrated teacher education pathways."
+            text="The college offers teacher education programmes designed to develop academic understanding, professional competence and classroom readiness."
           />
           <div className="grid grid-3">
             {courses.map((course) => (
@@ -100,7 +100,7 @@ export default function Home() {
           <SectionHeader
             eyebrow="Purpose"
             title="Mission, Vision and Welcome"
-            text="A clear academic direction for students beginning their teacher education journey."
+            text="Our institutional goals reflect a commitment to quality education, professional ethics and service to society."
           />
           <div className="grid grid-3">
             {commitments.map((item) => {
@@ -126,7 +126,7 @@ export default function Home() {
               </div>
               <div className="card-body">
                 <h3>{item.title}</h3>
-                <span>View details <ArrowRight size={16} /></span>
+                <span>Explore <ArrowRight size={16} /></span>
               </div>
             </Link>
           ))}

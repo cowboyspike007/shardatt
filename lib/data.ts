@@ -1,5 +1,5 @@
 export const introText =
-  "Teachers play a very important role in a student's life. Sharda T.T. College prepares future educators through professional teacher-training programs, modern learning spaces, and a campus designed for 21st century education.";
+  "Sharda T.T. College is committed to preparing competent, compassionate and professionally responsible teachers through a balanced emphasis on academic study, practical training and value-based education.";
 
 export const address =
   "N.H.-11, Udaipuria Mode, Lohrwada Road, Chomu, Jaipur, Rajasthan 303702 India";
@@ -107,7 +107,7 @@ export const documents = [
     title: "Staff Details",
     links: [
       ["B.Ed", "/documents/bed-staff.pdf"],
-      ["B.A.-B.Ed/B.Sc.-B.Ed 4 yr Integrated", "https://drive.google.com/file/d/1-4c6klDOn1nNIVGsBNrk_cULJOEMUTvM/view?usp=sharing"]
+      ["B.A.-B.Ed/B.Sc.-B.Ed 4 yr Integrated", "/documents/integrated-staff.pdf"]
     ]
   },
   {
@@ -179,6 +179,7 @@ export const galleryGroups = [
       "/assets/img/lab05.jpg"
     ]
   },
+  { title: "Computer Lab", images: ["/assets/img/computer-lab-2026.jpeg"] },
   { title: "Seminar Hall", images: ["/assets/img/seminarhall.jpg"] },
   { title: "Library", images: ["/assets/img/Library.jpg"] },
   { title: "Playground", images: ["/assets/img/playground01.jpg", "/assets/img/playground02.jpg"] }

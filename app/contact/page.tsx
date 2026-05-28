@@ -7,8 +7,8 @@ export default function ContactPage() {
     <>
       <PageHero
         eyebrow="Contact"
-        title="Visit or contact the college office"
-        text="Reach Sharda T.T. College by phone, email, or at the campus near Udaipuria Mode, Chomu."
+        title="Contact Sharda T.T. College"
+        text="For admission, academic and administrative enquiries, contact the college office or visit the campus at Chomu, Jaipur."
         image="/assets/img/Contact.jpg"
       />
       <section className="section">

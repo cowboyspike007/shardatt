@@ -9,8 +9,8 @@ export default function JobsPage() {
     <>
       <PageHero
         eyebrow="Careers"
-        title="Apply for teaching opportunities"
-        text="Join a college committed to spreading the light of knowledge through responsible, student-centered teaching."
+        title="Career Opportunities"
+        text="Sharda T.T. College invites qualified and dedicated professionals to contribute to teacher education and student development."
         image="/assets/img/seminarhall.jpg"
       />
       <section className="section">
@@ -19,12 +19,12 @@ export default function JobsPage() {
             <iframe title="Sharda T.T. College job application form" src={`${formUrl}&embed=true`} loading="lazy" />
           </div>
           <div className="panel">
-            <h2>Apply For Job</h2>
+            <h2>Apply for a Position</h2>
             <p>
-              At Sharda T.T. College, teaching is a responsibility and an achievement. Teachers work on diverse academic platforms where strong academic minds meet student potential.
+              Teaching at Sharda T.T. College is a professional responsibility rooted in academic commitment, discipline and service to learners.
             </p>
             <p>
-              The college invites teachers with first-rate credentials, experience, communication skills and required professional qualifications.
+              Applicants with the required qualifications, teaching aptitude, communication skills and commitment to institutional values may submit their details through the application form.
             </p>
             <a className="button" href={formUrl} target="_blank" rel="noreferrer">
               Open Form <ArrowUpRight size={18} />

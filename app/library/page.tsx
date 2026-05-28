@@ -8,15 +8,15 @@ export default function LibraryPage() {
     <>
       <PageHero
         eyebrow="Library"
-        title="Academic resources for study and discovery"
-        text="A quiet, supportive library with books, journals and reference material for teacher education students."
+        title="Library and Learning Resources"
+        text="The college library supports teaching, learning and research through books, journals and reference material for teacher education."
         image="/assets/img/Library.jpg"
       />
       <section className="section">
         <div className="section-inner">
           <SectionHeader
             title="Library Collection"
-            text="Resources are organized to support coursework, research, lesson preparation and independent reading."
+            text="The collection is maintained to support coursework, lesson planning, research orientation and independent study."
           />
           <div className="grid grid-3">
             {libraryStats.map((stat) => (

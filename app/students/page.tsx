@@ -7,15 +7,15 @@ export default function StudentsPage() {
     <>
       <PageHero
         eyebrow="Students"
-        title="Student intake information"
-        text="Integrated program intake details are arranged for easy reading on desktop and mobile devices."
+        title="Student Intake"
+        text="Programme-wise student intake information for the integrated teacher education courses."
         image="/assets/img/classroom01.jpg"
       />
       <section className="section">
         <div className="section-inner">
           <SectionHeader
             title="Integrated Program Intake"
-            text="The original student list has been converted into a concise responsive intake summary."
+            text="The following information presents the intake position for the B.A.-B.Ed. and B.Sc.-B.Ed. integrated programmes."
           />
           <div className="responsive-table">
             <table>

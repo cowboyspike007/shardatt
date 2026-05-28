@@ -8,15 +8,15 @@ export default function AboutPage() {
     <>
       <PageHero
         eyebrow="About"
-        title="An educational environment for 21st century teaching"
-        text="Sharda T.T. College combines professional preparation, values-led learning, and campus facilities that support serious teacher training."
+        title="About Sharda T.T. College"
+        text="Sharda T.T. College provides a purposeful academic environment for teacher education, professional preparation and character formation."
         image="/assets/img/coverimg2.jpg"
       />
       <section className="section about-intro-section">
         <div className="section-inner about-intro">
           <div>
             <p className="eyebrow">About Us</p>
-            <h2>Focused preparation for future educators</h2>
+            <h2>Preparing teachers with knowledge, skill and values</h2>
           </div>
           <div>
             <p>
@@ -28,7 +28,7 @@ export default function AboutPage() {
       </section>
       <section className="section values-section">
         <div className="section-inner">
-          <SectionHeader title="Our Values" text="The college culture is shaped by fairness, support and academic excellence." />
+          <SectionHeader title="Our Values" text="The college encourages integrity, equity, creativity and excellence in every aspect of academic life." />
           <div className="grid grid-3">
             {values.map((value) => (
               <article className="value-card" key={value.title}>

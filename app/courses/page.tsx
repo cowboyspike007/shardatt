@@ -8,7 +8,7 @@ export default function CoursesPage() {
       <PageHero
         eyebrow="Admissions"
         title="Courses Offered"
-        text="Professional teacher education programs with clear duration, intake and fee information."
+        text="Teacher education programmes offered by the college with course duration, sanctioned intake and fee details."
         image="/assets/img/Admission.jpg"
       />
       <section className="section">

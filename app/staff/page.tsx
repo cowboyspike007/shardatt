@@ -1,3 +1,4 @@
+import { FileText } from "lucide-react";
 import Image from "next/image";
 import { PageHero } from "@/components/PageHero";
 import { SectionHeader } from "@/components/SectionHeader";
@@ -21,15 +22,28 @@ export default function StaffPage() {
     <>
       <PageHero
         eyebrow="Staff"
-        title="Teaching staff details"
-        text="Subjectwise teacher performa for B.Ed College, session 2024-25."
+        title="Teaching Staff"
+        text="Faculty information for the B.Ed College, including subject, qualification, experience and appointment details for the 2024-25 session."
         image="/assets/img/classroom02.jpg"
       />
       <section className="section">
         <div className="section-inner">
+          <div className="staff-pdf-card">
+            <div>
+              <p className="eyebrow">Integrated College Staff</p>
+              <h2>B.A.-B.Ed. / B.Sc.-B.Ed. Staff Details</h2>
+              <p>
+                The integrated college staff list is available as an official PDF document for reference.
+              </p>
+            </div>
+            <a className="button" href="/documents/integrated-staff.pdf" target="_blank" rel="noreferrer">
+              <FileText size={18} /> Open PDF
+            </a>
+          </div>
+
           <SectionHeader
             title="B.Ed College Staff"
-            text="Name of College and Address: Sharda T.T. College, Chomu, Jaipur."
+            text="Subjectwise teacher performa for Sharda T.T. College, Chomu, Jaipur."
           />
 
           <div className="staff-table-wrap desktop-staff">

@@ -7,8 +7,8 @@ export default function GalleryPage() {
     <>
       <PageHero
         eyebrow="Photos"
-        title="Campus gallery"
-        text="Classrooms, labs, library, seminar hall and open spaces from the college campus."
+        title="Campus Gallery"
+        text="A glimpse of the college campus, academic facilities, laboratories, library, seminar hall and student activity spaces."
         image="/assets/img/shutterstock_366653684.jpg"
       />
       <section className="section">

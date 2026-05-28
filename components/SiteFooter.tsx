@@ -12,7 +12,7 @@ export function SiteFooter() {
             <strong>Sharda T.T. College</strong>
           </div>
           <p>
-            We are an educational institute with a mission of teaching the teachers of future.
+            A teacher education institution committed to academic excellence, professional preparation and value-based learning.
           </p>
           <div className="footer-links">
             <Link href="/">Home</Link>

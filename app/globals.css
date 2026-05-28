@@ -535,6 +535,28 @@ h3 {
   box-shadow: 0 10px 28px rgba(21, 32, 51, 0.07);
 }
 
+.staff-pdf-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 22px;
+  margin-bottom: 42px;
+  padding: 24px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--paper);
+  box-shadow: 0 10px 28px rgba(21, 32, 51, 0.07);
+}
+
+.staff-pdf-card h2 {
+  font-size: clamp(1.45rem, 2.2vw, 2.2rem);
+}
+
+.staff-pdf-card p:last-child {
+  margin-bottom: 0;
+  color: var(--muted);
+}
+
 .staff-table {
   min-width: 1160px;
   font-size: 0.9rem;
@@ -812,6 +834,13 @@ th {
 
   .staff-card img {
     margin: 0 auto;
+  }
+
+  .staff-pdf-card {
+    align-items: flex-start;
+    flex-direction: column;
+    margin-bottom: 30px;
+    padding: 20px;
   }
 
   .desktop-staff {
