@@ -106,7 +106,7 @@ export const documents = [
   {
     title: "Staff Details",
     links: [
-      ["B.Ed", "https://drive.google.com/file/d/1YU3ZPEr4QMF44BcEWAGku_HH9h9oo7Bc/view?usp=sharing"],
+      ["B.Ed", "/documents/bed-staff.pdf"],
       ["B.A.-B.Ed/B.Sc.-B.Ed 4 yr Integrated", "https://drive.google.com/file/d/1-4c6klDOn1nNIVGsBNrk_cULJOEMUTvM/view?usp=sharing"]
     ]
   },
@@ -202,6 +202,217 @@ export const integratedFaculty = [
   ["Pratibha", "Lecturer", "M.Sc.-M.Ed., NET", "Chemistry", "/assets/img/staffintegrated/Pratibha.jpg"],
   ["Dr. Meenakshi", "Lecturer", "M.A.-M.Ed., Ph.D.", "Pedagogy", "/assets/img/staffintegrated/Meenakshi.jpg"],
   ["Dr. Amjad Khan", "Lecturer", "M.P.Ed., Ph.D.", "Physical Education", "/assets/img/staffintegrated/Amjad.jpg"]
+];
+
+export const bedStaff = [
+  {
+    serial: 1,
+    name: "Dr. Rajendra Prasad Saini",
+    fatherName: "Ram Pratap Saini",
+    image: "/staff-images/staff-01.jpg",
+    designation: "Principal",
+    dob: "07.08.1975",
+    qualification: "M.A.-M.Ed., Ph.D.",
+    subject: "Biology, Gen. Sci.",
+    experience: "13",
+    joiningDate: "01.06.2022",
+    payScale: "37400-67000"
+  },
+  {
+    serial: 2,
+    name: "Saleem Raza",
+    fatherName: "Mohammad Aslam",
+    image: "/staff-images/staff-02.jpg",
+    designation: "Lecturer",
+    dob: "01.05.1988",
+    qualification: "M.Sc.-M.Ed., NET",
+    subject: "Education",
+    experience: "8",
+    joiningDate: "12.09.2019",
+    payScale: "15600-39100"
+  },
+  {
+    serial: 3,
+    name: "Mahesh Kumar Sharma",
+    fatherName: "Bajrang Lal Sharma",
+    image: "/staff-images/staff-03.jpg",
+    designation: "Lecturer",
+    dob: "05-02-1982",
+    qualification: "M.A.-M.Ed., NET",
+    subject: "Physics",
+    experience: "8",
+    joiningDate: "11.09.2019",
+    payScale: "15600-39100"
+  },
+  {
+    serial: 4,
+    name: "Mr. Ashok Guliya",
+    fatherName: "Prahlad Sahay Guliya",
+    image: "/staff-images/staff-04.jpg",
+    designation: "Lecturer",
+    dob: "15.09.1997",
+    qualification: "M.Sc.-M.Ed., NET",
+    subject: "Geography",
+    experience: "2",
+    joiningDate: "13.08.2023",
+    payScale: "15600-39100"
+  },
+  {
+    serial: 5,
+    name: "Pappu Ram Rao",
+    fatherName: "Kana Ram Rao",
+    image: "/staff-images/staff-05.jpg",
+    designation: "Lecturer",
+    dob: "25.07.1986",
+    qualification: "M.A.-M.Ed., NET",
+    subject: "Mathematics",
+    experience: "4",
+    joiningDate: "10.01.2024",
+    payScale: "15600-39100"
+  },
+  {
+    serial: 6,
+    name: "Brij Pal Singh",
+    fatherName: "Param Singh",
+    image: "/staff-images/staff-06.jpg",
+    designation: "Lecturer",
+    dob: "20-10-1980",
+    qualification: "M.Sc.-M.Ed., NET",
+    subject: "Commerce / Economics",
+    experience: "8",
+    joiningDate: "20.12.2021",
+    payScale: "15600-39100"
+  },
+  {
+    serial: 7,
+    name: "Dr. Ram Singh",
+    fatherName: "Sardara Ram",
+    image: "/staff-images/staff-07.jpg",
+    designation: "Lecturer",
+    dob: "28-07-1960",
+    qualification: "M.Com.-M.Ed., Ph.D.",
+    subject: "Education",
+    experience: "20",
+    joiningDate: "10.09.2022",
+    payScale: "15600-39100"
+  },
+  {
+    serial: 8,
+    name: "Sunil Choudhary",
+    fatherName: "Gopal Lal Guliya",
+    image: "/staff-images/staff-08.jpg",
+    designation: "Lecturer",
+    dob: "15-10-1988",
+    qualification: "M.A.-M.Ed., NET",
+    subject: "English",
+    experience: "03",
+    joiningDate: "03.06.2023",
+    payScale: "15600-39100"
+  },
+  {
+    serial: 9,
+    name: "Raj Laxmi Bunkar",
+    fatherName: "Arjun Lal Bunkar",
+    image: "/staff-images/staff-09.jpg",
+    designation: "Lecturer",
+    dob: "28-05-1985",
+    qualification: "M.A.-M.Ed., NET",
+    subject: "Hindi",
+    experience: "0",
+    joiningDate: "15-04-2024",
+    payScale: "15600-39100"
+  },
+  {
+    serial: 10,
+    name: "Dr. Narendra Kumar Sharma",
+    fatherName: "Rambabu Prasad Sharma",
+    image: "/staff-images/staff-10.jpg",
+    designation: "Lecturer",
+    dob: "01.06.1984",
+    qualification: "M.Sc.-M.Ed., Ph.D.",
+    subject: "Chemistry",
+    experience: "10",
+    joiningDate: "12.09.2021",
+    payScale: "15600-39100"
+  },
+  {
+    serial: 11,
+    name: "Ummed Singh Meena",
+    fatherName: "Madan Lal Meena",
+    image: "/staff-images/staff-11.jpg",
+    designation: "Lecturer",
+    dob: "08-06-1984",
+    qualification: "M.A.-M.Ed., NET",
+    subject: "Social Studies",
+    experience: "09",
+    joiningDate: "20.11.2013",
+    payScale: "15600-39100"
+  },
+  {
+    serial: 12,
+    name: "Kanishk Pareek",
+    fatherName: "Satya Prakash Pareek",
+    image: "/staff-images/staff-12.jpg",
+    designation: "Lecturer",
+    dob: "16.03.1997",
+    qualification: "M.A., NET",
+    subject: "Art & Craft",
+    experience: "3",
+    joiningDate: "10.09.2019",
+    payScale: "15600-39100"
+  },
+  {
+    serial: 13,
+    name: "Vinita Sharma",
+    fatherName: "Sita Ram Sharma",
+    image: "/staff-images/staff-13.jpg",
+    designation: "Lecturer",
+    dob: "16-12-1985",
+    qualification: "M.A.-M.Ed., SET",
+    subject: "History",
+    experience: "3",
+    joiningDate: "01.05.2024",
+    payScale: "15600-39100"
+  },
+  {
+    serial: 14,
+    name: "Sanwar Mal",
+    fatherName: "Moti Ram",
+    image: "/staff-images/staff-14.jpg",
+    designation: "Lecturer",
+    dob: "01.07.1973",
+    qualification: "M.A.-M.Ed., SLET",
+    subject: "Psychology",
+    experience: "10",
+    joiningDate: "12.09.2019",
+    payScale: "15600-39100"
+  },
+  {
+    serial: 15,
+    name: "Anshu",
+    fatherName: "Rakesh",
+    image: "/staff-images/staff-15.jpg",
+    designation: "Lecturer",
+    dob: "23.04.1994",
+    qualification: "M.P.Ed., NET",
+    subject: "Physical Education",
+    experience: "4",
+    joiningDate: "06.09.2020",
+    payScale: "15600-39100"
+  },
+  {
+    serial: 16,
+    name: "Sunil Kumar",
+    fatherName: "Kailash Chand",
+    image: "/staff-images/staff-16.jpg",
+    designation: "Lecturer",
+    dob: "18.08.1983",
+    qualification: "M.Mus., NET",
+    subject: "Music",
+    experience: "4",
+    joiningDate: "06.09.2020",
+    payScale: "15600-39100"
+  }
 ];
 
 export const studentIntake = [
