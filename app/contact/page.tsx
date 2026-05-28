@@ -17,7 +17,7 @@ export default function ContactPage() {
             <iframe
               title="Map to Sharda T.T. College"
               loading="lazy"
-              src="https://www.google.com/maps/embed/v1/place?key=AIzaSyB7DgZ_NEkMXv_WtYXKHN_F4OoY5O-b-vo&q=Sharada+T.T.College+Udaipuria+Mode+Loharvada&zoom=11"
+              src="https://www.google.com/maps?q=Sharda%20T.T.%20College%20Udaipuria%20Mode%20Lohrwada%20Road%20Chomu%20Jaipur&z=11&output=embed"
             />
           </div>
           <div className="contact-list">
